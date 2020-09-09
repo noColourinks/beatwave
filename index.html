@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music drums</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/addons/p5.sound.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Willkommen zu meinem Spiel</h1>
+    <section class="Anleitung">
+      <div>
+        <div class="img one"></div>
+        <p class="welcome">
+          <span>
+            Drücke die Leertaste um das Spiel zu starten. Höre dem Rythmus zu
+            und lass dich vom Intro beschmeicheln.<br /><br />
+            Sobald der Takt los geht, kannst du pro takt einen Schritt machen
+            und extra Punkte machen. Benutze W,A,S,D oder die Pfeiltaschen um
+            dich zu bewegen.
+          </span>
+        </p>
+      </div>
+      <div>
+        <p class="enemy">
+          <span>
+            Sammel alle Edelsteine ein und Besiege alle Monster auf der Ebene um
+            das Portal zum nächsten lvl Aktivieren.</span
+          >
+        </p>
+        <div class="img two"></div>
+      </div>
+      <div>
+        <div class="img three"></div>
+        <p class="boss">
+          <span>Der Endboss hat fünf Leben, kämpfe und besiege ihn.</span>
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <article>
+        <div class="game">
+          <div id="p5canvas">
+            <script src="game.js"></script>
+          </div>
+
+          <p></p>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
